@@ -248,6 +248,13 @@ numbers2words <- function(x){
   helper(x) 
 }
 
+ # This function takes a vector and makes it into a comma separated list for text.
+ 
+ lister.text <- function(x){
+   if(length(x)==1) return(x)
+   if(length(x)>1) paste(paste(x[1:(length(x)-1)], collapse=", "), x[length(x)], sep=" and ")
+ }
+ 
 ########################################################
 # Functions for maps
 ########################################################
