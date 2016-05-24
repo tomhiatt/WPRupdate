@@ -28,7 +28,8 @@ yr <- 2014
 
 ###################################################
 
-# > sessionInfo()
+# Run this in Shell to get the other person's changes:
+# git pull --rebase origin master
 
 library(plyr) #Note: plyr must be loaded before dplyr
 lapply(c("reshape", "plyr", "dplyr", "ggplot2", "grid", "scales", "xtable", "stringr", "ggthemes", "tidyr"), library, character.only=TRUE)
