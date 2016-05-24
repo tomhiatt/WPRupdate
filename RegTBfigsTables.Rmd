@@ -1,18 +1,19 @@
 ---
-title: 'Epidemiology and control of tuberculosis in the Western Pacific Region: update with 2014 case notification data'
+title: 'Epidemiology and control of tuberculosis in the Western Pacific Region: update
+  with 2014 case notification data'
 author: "Tom Hiatt<sup>&dagger;</sup> and Nobuyuki Nishikiori<sup>&dagger;</sup>"
 csl: vancouver-imperial-college-london.csl
 output:
+  word_document:
+    fig_height: 7
+  pdf_document:
+    toc: yes
   html_document:
     fig_caption: yes
     keep_md: yes
     number_sections: no
     theme: united
     toc: yes
-  pdf_document:
-    toc: yes
-  word_document:
-    fig_height: 7
 bibliography: WPRupdate.bib
 ---
 

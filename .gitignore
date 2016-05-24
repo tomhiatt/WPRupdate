@@ -1,11 +1,9 @@
 # History files
 .Rhistory
 .Rapp.history
-
 # RStudio files
 *.Rproj
 .Rproj.user/
-
 # Output files
 figure/
 figure_data/
@@ -13,3 +11,5 @@ figure_data/
 RegTBfigsTables_files/
 RegTBfigsTables.md
 RegTBfigsTables.html
+RegTBfigsTables.Rmd
+RegTBfigsTables.docx
